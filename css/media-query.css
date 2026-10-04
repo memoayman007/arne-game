@@ -1,0 +1,147 @@
+@media (max-width:776px) {
+
+    header {
+        padding-bottom: 200px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    #header-title {
+        padding-top: 11em;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    #hero-img-info {
+        padding: 2px !important;
+        bottom: -20px;
+        left: -10px;
+
+    }
+
+    #hero-img-info-fsSmall {
+        font-size: 13px !important;
+        text-align: end;
+    }
+
+    .img-info {
+        width: 10rem;
+    }
+
+    .img-info #header-img-icon {
+        font-size: 40px;
+
+    }
+
+    .main-tiltle-style {
+        width: 60%;
+    }
+
+    .main-tiltle-style::after {
+        right: -30px;
+    }
+
+    .main-tiltle-style::before {
+        left: -30px;
+    }
+
+    #our-games-title {
+        font-size: 31px;
+    }
+
+    #games-img-1 {
+        width: 95%;
+    }
+
+    #games-img-2,
+    #games-img-3 {
+        display: none;
+    }
+
+    #lastGame-icon-bottom {
+        flex-direction: column;
+        justify-content: stretch;
+        font-size: 10px;
+    }
+
+    #lastGame-icon-bottom button {
+        font-size: 13px !important;
+    }
+
+    #Interactive-title-h1 {
+        font-size: 24px;
+    }
+
+    #Interactive-title-p {
+        font-size: 26px;
+    }
+
+    #our-team-title {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #contact-div {
+        align-items: center;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        width: 100%;
+
+    }
+
+    #contact-p {
+        font-size: 14px;
+        text-align: start;
+        margin-bottom: 0;
+    }
+
+    #contact-form {
+        width: 94%;
+        margin-left: 20px;
+        padding: 2rem !important;
+
+    }
+
+    #contact-form p {
+        text-align: start;
+    }
+
+    #userName-input {
+        flex-direction: column;
+    }
+
+    #firstName-input {
+        width: 100% !important;
+    }
+
+    #lastName-input {
+        width: 100% !important;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    footer p {
+        text-align: start;
+    }
+
+    .footer-service {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+
+}
